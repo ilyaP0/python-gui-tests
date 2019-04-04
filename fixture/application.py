@@ -9,7 +9,7 @@ class Application:
         self.groups = GroupHelper(self)
 
 
-    def destroy(self):
+    def destroy(self): 
         self.main_window.close()
 
 
